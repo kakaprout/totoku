@@ -54,6 +54,41 @@ void start()
 
 		current->round_img(g);
 		g->refresh();
+      
+		while (42)
+		{
+			while(SDL_PollEvent(&event))
+			{
+				switch(event.type)
+				{
+					case SDL_QUIT:
+						exit(0);
+					break;
+
+					case SDL_MOUSEBUTTONDOWN :
+						if (event.button.button == SDL_BUTTON_LEFT)
+						{
+							if (event.button.y < TOP_SPACE)
+							{
+								if (event.button.x > 560 && event.button.x < (560 + 170)
+								&& event.button.y > 104 && event.button.y < (104 + 18))
+								{
+									exit(0);
+								}
+								else  if (event.button.x > 295 && event.button.x < (295 + 115)
+								&& event.button.y > 102 && event.button.y < (102 + 18))
+								{
+									start();
+								}
+							}
+						}
+					break;
+		  
+					default:
+					break;
+				}
+			}
+		}
 	}
 
 	delete current;
