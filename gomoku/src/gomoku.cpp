@@ -73,31 +73,31 @@ void Gomoku::load_grille()
 			{
 			case CASE_EMPTY :
 				if (i == 0 && j == 0)
-					s = IMG_Load("img/40px/40px-Go_ul.svg.png");
+					s = IMG_Load("img/coin_haut_gauche.png");
 				else if ((i != 0 && i != 19 - 1) && j == 0)
-					s = IMG_Load("img/40px/40px-Go_l.svg.png");
+					s = IMG_Load("img/gauche.png");
 				else if (i == 19 - 1 && j == 0)
-					s = IMG_Load("img/40px/40px-Go_dl.svg.png");
+					s = IMG_Load("img/coin_bas_gauche.png");
 				else if (i == 0 && j != 0 && j != 19 - 1)
-					s = IMG_Load("img/40px/40px-Go_u.svg.png");
+					s = IMG_Load("img/haut.png");
 				else if (i == 19 - 1 && j != 0 && j != 19 - 1)
-					s = IMG_Load("img/40px/40px-Go_d.svg.png");
+					s = IMG_Load("img/bas.png");
 				else if (i == 19 - 1 && j == 19 - 1)
-					s = IMG_Load("img/40px/40px-Go_dr.svg.png");
+					s = IMG_Load("img/coin_bas_droit.png");
 				else if (i != 0 && i != 19 - 1 && j == 19 - 1)
-					s = IMG_Load("img/40px/40px-Go_r.svg.png");
+					s = IMG_Load("img/droit.png");
 				else if (i == 0 && j == 19 - 1)
-					s = IMG_Load("img/40px/40px-Go_ur.svg.png");
+					s = IMG_Load("img/coin_haut_droit.png");
 				else
-					s = IMG_Load("img/40px/40px-Go_.svg.png");
+					s = IMG_Load("img/centre.png");
 				break;
 
 			case CASE_J1 :
-				s = IMG_Load("img/40px/40px-Go_w.svg.png");
+				s = IMG_Load("img/j1.png");
 				break;
 
 			case CASE_J2 :
-				s = IMG_Load("img/40px/40px-Go_b.svg.png");
+				s = IMG_Load("img/j2.png");
 				break;
 			}
 
