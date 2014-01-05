@@ -5,16 +5,15 @@
 #include "player.h"
 #include "gomoku.h"
 
-// Classe de gestion des deux joueurs
 class Players
 {
 public:
-  Player *p1;
-  Player *p2;
-  bool change;
+	Player *p1;
+	Player *p2;
+	bool change;
 
-  Players();
-  Player *get_current(Gomoku *g);
+	Players();
+	Player *get_current(Gomoku *g);
 };
 
 #endif
