@@ -10,15 +10,15 @@ private:
 	bool state;
 
 public:
-	char c[19][19];
+	char	c[19][19];
 	SDL_Surface *screen;
-	bool ia1_activated;
-	bool ia2_activated;
-	char winner;
+	bool	ia1_activated;
+	bool	ia2_activated;
+	char	winner;
 	std::stack<Gomoku_pos> p;
-	char can_win_type;
-	int can_win_x;
-	int can_win_y;
+	char	can_win_type;
+	int		can_win_x;
+	int		can_win_y;
 
 	Gomoku(int);
 	~Gomoku();
