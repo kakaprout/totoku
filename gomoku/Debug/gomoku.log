@@ -1,25 +1,17 @@
-﻿Build started 06/01/2014 11:14:04.
+﻿Build started 06/01/2014 18:39:19.
      1>Project "C:\Users\Quentin\Documents\GitHub\totoku\gomoku\gomoku.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\gomoku.unsuccessfulbuild".
+         Creating "Debug\gomoku.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Quentin\Documents\GitHub\totoku\gomoku\\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ia.cpp
-         ia.cpp
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(52): warning C4715: 'Player_ia::checkDownAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(85): warning C4715: 'Player_ia::checkUpAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(118): warning C4715: 'Player_ia::checkLeftAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(151): warning C4715: 'Player_ia::checkRightAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(186): warning C4715: 'Player_ia::checkUpLeftAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(221): warning C4715: 'Player_ia::checkUpRightAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(256): warning C4715: 'Player_ia::checkDownLeftAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(291): warning C4715: 'Player_ia::checkDownRightAlign' : not all control paths return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(301): warning C4700: uninitialized local variable 'counter' used
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(301): warning C4700: uninitialized local variable 'y' used
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(301): warning C4700: uninitialized local variable 'x' used
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(310): error C4716: 'Player_ia::evaluateHeuristic' : must return a value
-     1>c:\users\quentin\documents\github\totoku\gomoku\src\ia.cpp(309): warning C4700: uninitialized local variable 'ret' used
-     1>Done Building Project "C:\Users\Quentin\Documents\GitHub\totoku\gomoku\gomoku.vcxproj" (build target(s)) -- FAILED.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         gomoku.vcxproj -> C:\Users\Quentin\Documents\GitHub\totoku\Debug\gomoku.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\gomoku.unsuccessfulbuild".
+         Touching "Debug\gomoku.lastbuildstate".
+     1>Done Building Project "C:\Users\Quentin\Documents\GitHub\totoku\gomoku\gomoku.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.87
+Time Elapsed 00:00:00.17
